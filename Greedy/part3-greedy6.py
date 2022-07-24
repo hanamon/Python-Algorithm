@@ -13,12 +13,10 @@
 # curr = 0
 
 # for count in range(k-1):
-# 		if curr < food_times_len: 
-# 				if food_times[curr] != 0: 
-# 						food_times[curr] = food_times[curr]-1
-# 				curr += 1
-# 		else: 
-# 				curr = 0
+#     if curr < food_times_len: 
+#         if food_times[curr] != 0: food_times[curr] = food_times[curr]-1
+#         curr += 1
+#     else: curr = 0
 
 # if curr == food_times_len: curr = 0
 # else: curr + 1
