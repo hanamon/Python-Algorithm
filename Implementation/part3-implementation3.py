@@ -27,3 +27,5 @@ for unit in range(1, int(len(input_str)/2)+1):
 		min_len = min(min_len, len(compressed_str))
 
 print(min_len)
+
+# TODO: 정확성 70.0 나옴…
