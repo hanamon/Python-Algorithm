@@ -19,7 +19,7 @@ inp = [
 ]
 
 # [구현 방법]
-# 최단 거리를 구하는 문제가 아니므로 BFS로 구현한다.
+# 최단 거리를 구하는 문제이므로 BFS로 구현한다.
 # BFS이니 자료구조 Queue를 이용한다.
 
 def my_solution(matrix):
@@ -39,7 +39,7 @@ def my_solution(matrix):
 						queue = [[row_idx, col_idx]]
 
 						# 현재 아이스크림 블럭과 연결된 블럭을 찾는다.
-						while len(queue) > 0:
+						while len(queue):
 								[y, x] = queue.pop(0)
 
 								# 행렬을 벗어났거나 1인 경우
