@@ -43,6 +43,9 @@ def my_solution(matrix):
 				# 탈출 성공
 				if y == n and x == m: return count
     
+				# 나자신 초기화
+				matrix[y][x] = 0
+    
 				queue.append([y-1, x, count+1])
 				queue.append([y+1, x, count+1])
 				queue.append([y, x-1, count+1])
