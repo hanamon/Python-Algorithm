@@ -19,8 +19,6 @@ inp = [
 ]
 
 # [구현 방법]
-# 최단 거리를 구하는 문제이므로 BFS로 구현한다.
-# BFS이니 자료구조 Queue를 이용한다.
 
 def my_solution(matrix):
 		matrix = [i for i in matrix]
